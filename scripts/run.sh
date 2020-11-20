@@ -16,7 +16,9 @@ sed -i 's/67c7c69a/ffdbce8/' package.json
 cp -f /scripts/config.docker.yaml /home/cytube/app
 chown -R cytube: /home/cytube
 
-su-exec cytube npm install
+su-exec cytube npm install &&\
+    npm run build-server &&\
+    npm run postinstall
 
 envsubst < config.docker.yaml > config.yaml
 while :
