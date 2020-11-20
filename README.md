@@ -1,6 +1,6 @@
 # cytube-docker
 
-Docker image for CyTube
+Docker image for CyTube. (forked from https://github.com/chazu/cytube-docker for experimentation and personal use)
 
 *This repository is currently very alpha and a work in progress*
 
