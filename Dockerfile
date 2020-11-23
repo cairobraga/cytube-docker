@@ -19,14 +19,14 @@ ENV MYSQL_HOST=localhost \
 	SYNC_CRTKEY=null \
 	SYNC_CRT=null \
 	SYNC_CRTCA=null \
-	SYNC_TITLE=Sync \
-	SYNC_DESCRIPTION="Free, open source synchtube" \
+	SYNC_TITLE=CyTube \
+	SYNC_DESCRIPTION="Free, open source synchronized video watching" \
 	YOUTUBE_KEY=null \
 	CHANNEL_STORAGE=database \
 	VIMEO_WORKAROUND=false \
 	TWITCH_ID=null \
 	MIXER_ID=null \
-	LC_ALL=en_US.UTF-8 \
+	LC_ALL=en_UK.UTF-8 \
 	GIT_COMMIT=0bc866dbfaba0ef09dc703d6ef261bdf2e70b2ff
 
 RUN mkdir /docker-entrypoint-initdb.d && \
