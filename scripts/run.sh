@@ -18,6 +18,7 @@ chown -R cytube: /home/cytube
 
 su-exec cytube npm install &&\
     npm run build-server &&\
+    npm run build-player &&\
     npm run postinstall
 
 envsubst < config.docker.yaml > config.yaml
